@@ -30,7 +30,7 @@
    <h4 >:sun_with_face:Tema Light</h4>
   <img src="./screens/mobile-light.gif"  />
   <br><br>
-<a  href="#" > Clique para visitar o projeto
+<a  href="https://portfolio-flaviane-brum.vercel.app/" > Clique para visitar o projeto
 </a>
   </div>
 
@@ -38,11 +38,8 @@
 <h2 id="funcionalidades">✅ Funcionalidades</h2>
 
 - [x] **Tema escuro e claro.**
-
 - [x] **O tema é mantido**
-
 - [x] **Animações nas páginas**
-
 - [x] **Layout responsivo**
 
 <hr/>
