@@ -127,6 +127,6 @@ export const getStaticProps = async (ctx) => {
 
   return {
     props: { projetos },
-    revalidate: 60 * 60 * 24,
+    revalidate: 5,
   };
 };
