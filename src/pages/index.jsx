@@ -15,18 +15,14 @@ export default function Home() {
           name="description"
           content="Olá me chamo Flaviane Brum, sou uma desenvolvedora Front-end em busca de uma oportunidade. Portfólio feito para apresentar algumas informações e projetos feitos por mim!"
         />
-        {/*  Google / Search Engine Tags  */}
 
         <meta itemProp="name" content="Home | Meu portfólio" />
         <meta
           itemProp="description"
           content="Olá me chamo Flaviane Brum, sou uma desenvolvedora Front-end em busca de uma oportunidade. Portfólio feito para apresentar algumas informações e projetos feitos por mim!"
         />
-        <meta
-          itemProp="image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-        {/* <!-- Facebook Meta Tags --> */}
+        <meta itemProp="image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
 
         <meta
           property="og:url"
@@ -38,11 +34,7 @@ export default function Home() {
           property="og:description"
           content="Olá me chamo Flaviane Brum, sou uma desenvolvedora Front-end em busca de uma oportunidade. Portfólio feito para apresentar algumas informações e projetos feitos por mim!"
         />
-        <meta
-          property="og:image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-        {/* <!-- Twitter Meta Tags --> */}
+        <meta property="og:image" content="/ogimage.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Home | Meu portfólio" />
@@ -50,11 +42,7 @@ export default function Home() {
           name="twitter:description"
           content="Olá me chamo Flaviane Brum, sou uma desenvolvedora Front-end em busca de uma oportunidade. Portfólio feito para apresentar algumas informações e projetos feitos por mim!"
         />
-        <meta
-          name="twitter:image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-        {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
+        <meta name="twitter:image" content="/ogimage.png" />
       </Head>
 
       <section

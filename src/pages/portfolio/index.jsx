@@ -22,18 +22,14 @@ const Portfolio = ({ projetos }) => {
           content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
         />
 
-        {/*  Google / Search Engine Tags  */}
         <meta itemProp="name" content="Portfólio | Meu portfólio" />
         <meta
           itemProp="description"
           content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
         />
-        <meta
-          itemProp="image"
-          content="https://portfolio-flaviane-brum.vercel.app/portfolio//ogimage.png"
-        />
+        <meta itemProp="image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
 
-        {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
           content="https://portfolio-flaviane-brum.vercel.app/portfolio"
@@ -44,24 +40,15 @@ const Portfolio = ({ projetos }) => {
           property="og:description"
           content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
         />
-        <meta
-          property="og:image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
+        <meta property="og:image" content="/ogimage.png" />
 
-        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Portfólio | Meu portfólio" />
         <meta
           name="twitter:description"
           content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
         />
-        <meta
-          name="twitter:image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-
-        {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
+        <meta name="twitter:image" content="/ogimage.png" />
       </Head>
       <section
         className={`${styles.portfolio} ${

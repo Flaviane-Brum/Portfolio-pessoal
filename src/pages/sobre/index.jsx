@@ -43,18 +43,14 @@ const Sobre = () => {
           name="description"
           content="Aqui escrevo um pouco sobre mim, meus cursos, e processos de aprendizagem."
         />
-        {/*  Google / Search Engine Tags  */}
 
         <meta itemProp="name" content="Sobre | Meu portfólio" />
         <meta
           itemProp="description"
           content="Aqui escrevo um pouco sobre mim, meus cursos, e processos de aprendizagem."
         />
-        <meta
-          itemProp="image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-        {/* <!-- Facebook Meta Tags --> */}
+        <meta itemProp="image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
 
         <meta
           property="og:url"
@@ -66,11 +62,7 @@ const Sobre = () => {
           property="og:description"
           content="Aqui escrevo um pouco sobre mim, meus cursos, e processos de aprendizagem."
         />
-        <meta
-          property="og:image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-        {/* <!-- Twitter Meta Tags --> */}
+        <meta property="og:image" content="/ogimage.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sobre | Meu portfólio" />
@@ -78,11 +70,7 @@ const Sobre = () => {
           name="twitter:description"
           content="Aqui escrevo um pouco sobre mim, meus cursos, e processos de aprendizagem."
         />
-        <meta
-          name="twitter:image"
-          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
-        />
-        {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
+        <meta name="twitter:image" content="/ogimage.png" />
       </Head>
       <main
         className={`  ${styles.sobre} ${active && "anime-right  "} ${
