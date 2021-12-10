@@ -115,11 +115,11 @@ const Sobre = () => {
                 </li>
                 <li>
                   <a
-                    href="https://api.whatsapp.com/send?phone=55519938335295&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Meu%20nome%20%C3%A9%20Flaviane%20e%20estou%20%C3%A0%20sua%20disposi%C3%A7%C3%A3o."
+                    href="https://api.whatsapp.com/send?phone=5551993833529&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Meu%20nome%20%C3%A9%20Flaviane%20e%20estou%20%C3%A0%20sua%20disposi%C3%A7%C3%A3o."
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaWhatsapp size={25} /> (51)9383-3529
+                    <FaWhatsapp size={25} /> (51)99383-3529
                   </a>
                 </li>
               </ul>
