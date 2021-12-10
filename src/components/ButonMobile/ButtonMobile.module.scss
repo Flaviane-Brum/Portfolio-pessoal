@@ -1,0 +1,57 @@
+.mobileButton {
+  position: absolute;
+  left: 90%;
+  cursor: pointer;
+  top: 1rem;
+  transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 0 0px 1px 1px var(--pink-3);
+  border: 0;
+  background-color: var(--third-color);
+  padding: 0.5rem;
+  border-radius: 5px;
+  z-index: 100;
+  &:focus {
+    outline: none;
+  }
+  div {
+    width: 1.6rem;
+    height: 0.26rem;
+    background: var(--orange-3);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+    transform: rotate(0) translateX(0);
+    margin: 0 auto;
+
+    &.div {
+      margin: 0 auto;
+      left: 3px;
+      &:first-child {
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  &.leftBtn {
+    left: 250px;
+    opacity: 1;
+    transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  @media (max-width: 45.063rem) {
+    left: 85%;
+  }
+}

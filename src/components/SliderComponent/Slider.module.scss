@@ -1,0 +1,21 @@
+.sliderContainer {
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  height: auto;
+  min-width: 39.688rem;
+  min-width: 11.875rem;
+  @media (max-width: 61.875rem) {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .slickSlider {
+    display: block;
+    position: relative;
+
+    span {
+      border-radius: 5px;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  background-color: var(--primary-color);
+  overflow: auto;
+  height: 100%;
+  padding: 2rem;
+  transition: all 0.2s;
+  box-shadow: 0 0 2px var(--pink-3);
+  width: calc(100% - 300px);
+  position: fixed;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 300px;
+  z-index: 99;
+
+  @media (max-width: 61.875rem) {
+    width: 100%;
+    left: 0;
+    transition: left 1s;
+
+    &.BtnMobileActive {
+      left: 300px;
+      transition: left 1s;
+    }
+  }
+}

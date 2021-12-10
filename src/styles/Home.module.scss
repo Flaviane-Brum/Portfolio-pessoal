@@ -1,0 +1,77 @@
+.main {
+  background-color: var(--bg-home-color);
+  box-shadow: 0 0 2px var(--blue-1);
+  height: 100vh;
+  padding: 2rem;
+  width: calc(100% - 18.75rem);
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.2s;
+  position: fixed;
+  left: 300px;
+  z-index: 99;
+}
+.intro {
+  .homeTitle {
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--type-second);
+    font-weight: normal;
+    line-height: 1.2;
+    color: var(--blue-1);
+    margin-bottom: 0.5rem;
+
+    transition: font-family-color 0.2s;
+  }
+  .homeSubtitle {
+    color: var(--blue-1);
+    font-weight: 300;
+  }
+}
+.gifContainer {
+  margin: 1rem auto;
+  max-width: 30rem;
+  height: 18.125rem;
+  position: relative;
+
+  span {
+    display: block;
+    border-radius: 5px;
+  }
+  &.gifBorder {
+    span {
+      filter: drop-shadow(2px 2px 2px #333);
+    }
+  }
+}
+
+@media (max-width: 61.875rem) {
+  .main {
+    grid-row: 2/-1;
+    width: 100%;
+    left: 0;
+    transition: left 1s;
+
+    &.BtnMobileActive {
+      left: 300px;
+      transition: left 1s;
+    }
+  }
+}
+.socialIcons {
+  margin-top: 1rem;
+  a {
+    padding: 0.5rem;
+    svg {
+      fill: var(--blue-1);
+    }
+    svg {
+      &:hover {
+        fill: var(--orange-3);
+      }
+    }
+  }
+}

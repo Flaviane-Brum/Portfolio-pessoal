@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+<img src="./screens/tela.png" alt="autor" width="500" align="center" >
+<br>
+<br>
 
-## Getting Started
+</div>
+<h2 id="objetivo">:dart:  Objetivo</h2>
+<p align="center">🚀 Portfólio pessoal criado com o objetivo de apresentar um pouco sobre mim e meus conhecimentos. Além de  mostrar meus projetos ao decorrer de minha carreira.</p>
+<hr />
 
-First, run the development server:
+  <h2 id="preview">:movie_camera: Demo Gif</h2>
+<div align="center">
+  <div>
+  <h2 >:computer: Desktop</h2>
+    <h4>:new_moon_with_face: Tema Dark</h4>
+  <img src="./screens/desktop-dark.gif" />
+  <br><br>
+    <h4>:sun_with_face:Tema Light</h4>
+  <img src="./screens/desktop-light.gif" />
+  </div>
+  <br><br>
+</div>
+<hr />
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<div align="center">
+  <h2>:iphone:  Mobile</h2>
+  <h4 >:new_moon_with_face: Tema Dark</h4>
+  <img src="./screens/mobile-dark.gif"  />
+  <br><br>
+   <h4 >:sun_with_face:Tema Light</h4>
+  <img src="./screens/mobile-light.gif"  />
+  <br><br>
+<a  href="#" > Clique para visitar o projeto
+</a>
+  </div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<hr />
+<h2 id="funcionalidades">✅ Funcionalidades</h2>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [x] **Tema escuro e claro.**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- [x] **O tema é mantido**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [x] **Animações nas páginas**
 
-## Learn More
+- [x] **Layout responsivo**
 
-To learn more about Next.js, take a look at the following resources:
+<hr/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h3>:books: Seções</h3>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O site é composto por 3 seções diferentes:
 
-## Deploy on Vercel
+- Home: Uma breve apresentação com meu nome e minhas redes sociais.
+- Sobre: Essa página tem o objetivo de apresentar um pouco sobre mim e meus conhecimentos.
+- Portfólio: Exibe alguns projetos desenvolvidos, no qual, ao clicar no respectivo projeto, abre um modal com mais informações sobre o mesmo e seu link com o código no GitHub.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<hr />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h3 id="tecnologias">🛠 Tecnologias utilizadas</h3>
+<p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
+- React.js <br>
+- Next.js <br>
+- CSS Modules <br>
+- React-Icons <br>
+- Prismic CMS <br>
+- Sass <br>
+- React-slick <br>
+- Nextjs-progressbar<br>
+- React Hooks <br>
+- Context API <br><br>
+<hr />
+
+Desenvolvido com :hearts: por Flaviane Brum.

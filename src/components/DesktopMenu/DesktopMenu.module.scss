@@ -1,0 +1,47 @@
+.menu {
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+
+  .desktopMenu {
+    display: flex;
+    flex-direction: column;
+
+    li {
+      padding: 0.5rem;
+      & + li {
+        border-top: 3px solid var(--secondary-color);
+      }
+
+      a {
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        color: var(--pink-2);
+        gap: 0.5rem;
+        font-size: 1.125rem;
+        transition: all 0.3s;
+        border-radius: 5px;
+        svg {
+          fill: var(--pink-3);
+        }
+        &:hover {
+          transform: translateX(-4px);
+          color: var(--orange-2);
+          svg {
+            fill: var(--orange-3);
+          }
+        }
+        &.active {
+          color: var(--orange-3);
+          svg {
+            fill: var(--orange-3);
+          }
+        }
+      }
+    }
+  }
+}

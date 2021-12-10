@@ -1,0 +1,344 @@
+.sobre {
+  background-color: var(--primary-color);
+  overflow: auto;
+  height: 100%;
+  transition: all 0.2s;
+  box-shadow: 0 0 2px var(--pink-3);
+  width: calc(100% - 300px);
+  position: fixed;
+  left: 300px;
+  z-index: 99;
+  @media (max-width: 61.875rem) {
+    width: 100%;
+    left: 0;
+    transition: left 1s;
+
+    &.BtnMobileActive {
+      left: 300px;
+      transition: left 1s;
+    }
+  }
+}
+
+.container {
+  left: 0;
+  max-width: 100%;
+  padding: 2rem;
+  top: 0;
+  .titleSobre {
+    color: var(--pink-3);
+  }
+  @media (max-width: 45.063rem) {
+    padding: 1rem;
+  }
+}
+
+.textoSobreMim {
+  h2 {
+    color: var(--pink-2);
+  }
+  p {
+    line-height: 1.5;
+    font-size: 1.125rem;
+    font-weight: normal;
+    margin: 0.5rem 0;
+    letter-spacing: -0.01rem;
+    color: var(--text-secondary);
+  }
+}
+
+.endereco {
+  margin-bottom: 0.5rem;
+
+  h2 {
+    margin-bottom: 0.5rem;
+    color: var(--pink-2);
+  }
+  .ulDark {
+    padding: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    border-radius: 5px;
+    li {
+      background: var(--third-color);
+      padding: 0.625rem;
+      border-radius: 5px;
+      font-size: 0.875rem;
+      line-height: 1.55;
+      font-family: var(--type-third);
+      letter-spacing: -0.01rem;
+      font-style: italic;
+      font-weight: normal;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: var(--text-primary);
+      box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+      &:last-child {
+        margin-bottom: 0;
+      }
+      svg {
+        margin-right: 0.5rem;
+        color: var(--pink-3);
+      }
+      a {
+        border-radius: 5px;
+        font-size: 1rem;
+        line-height: 1.55;
+        font-family: var(--type-third);
+        letter-spacing: -0.01rem;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        color: var(--pink-3);
+        &:hover {
+          color: var(--pink-2);
+        }
+        svg {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+    @media (max-width: 45.063rem) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.conhecimentos {
+  h2 {
+    color: var(--pink-2);
+    margin-bottom: 0.5rem;
+  }
+  h3 {
+    color: var(--pink-2);
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    svg {
+      color: var(--pink-3);
+      margin-right: 0.3rem;
+    }
+  }
+}
+.gridConhecimentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  @media (max-width: 45.063rem) {
+    grid-template-columns: 1fr;
+  }
+}
+.habilidades {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+  padding: 1rem;
+
+  h3 {
+    svg {
+      color: var(--pink-3);
+    }
+  }
+}
+.skillsIcons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+  small {
+    font-family: var(--type-third);
+    font-style: italic;
+    letter-spacing: -0.01rem;
+    color: var(--text-primary);
+    width: 27%;
+    text-align: center;
+    box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+    background-color: var(--third-color);
+    border-radius: 5px;
+
+    svg {
+      display: block;
+      font-size: 4rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+}
+
+.educacao {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+  padding: 1rem;
+  h3 {
+    svg {
+      color: var(--pink-3);
+    }
+  }
+}
+.faculdade {
+  background-color: var(--third-color);
+  padding: 1rem;
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  font-family: var(--type-third);
+  margin-bottom: 1rem;
+  letter-spacing: -0.01rem;
+  svg {
+    color: var(--pink-3);
+  }
+  p {
+    margin-top: 5px;
+    color: var(--pink-2);
+    font-size: 1rem;
+    font-style: italic;
+  }
+  span {
+    margin-left: 4px;
+    color: var(--text-primary);
+  }
+  small {
+    color: var(--text-primary);
+  }
+  &:hover::before {
+    will-change: transform;
+    animation: animateHover 0.5s forwards;
+  }
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(var(--pink-2)) to(var(--pink-3))
+    );
+    background-image: linear-gradient(var(--pink-2), var(--pink-3));
+
+    width: 3px;
+    height: 90%;
+    top: 4px;
+    left: 5px;
+    border-radius: 20px;
+    z-index: 100;
+  }
+}
+@keyframes animateHover {
+  0%,
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  51% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+.gridExperiencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  grid-column: 1/-1;
+  @media (max-width: 45.063rem) {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.experiencia {
+  background-color: var(--secondary-color);
+
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+  padding: 1rem;
+  align-items: center;
+  color: var(--text-secondary);
+
+  div {
+    p {
+      line-height: 1.5;
+      font-weight: normal;
+      font-family: var(--type-second);
+      a {
+        color: var(--pink-2);
+        &:hover {
+          color: var(--pink-3);
+          text-decoration: underline;
+        }
+      }
+    }
+    margin-bottom: 0.5rem;
+  }
+}
+
+.cursos {
+  background-color: var(--secondary-color);
+
+  border-radius: 5px;
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+  padding: 1rem;
+  grid-column: 2;
+  grid-row: 1/-1;
+  h3 {
+    svg {
+      color: var(--pink-3);
+    }
+  }
+  .cursoContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    @media (max-width: 45.063rem) {
+      grid-template-columns: 1fr;
+    }
+    .curso {
+      background: var(--third-color);
+      padding: 1rem;
+      box-shadow: 0 4px 3px 0 rgb(0 0 0 / 40%);
+      border-radius: 5px;
+      font-family: var(--type-third);
+      letter-spacing: -0.01rem;
+
+      svg {
+        color: var(--pink-3);
+      }
+      p {
+        margin-bottom: 5px;
+        color: var(--text-primary);
+
+        font-style: italic;
+      }
+      span {
+        display: block;
+        color: var(--text-secondary);
+        margin-bottom: 5px;
+      }
+      small {
+        color: var(--text-secondary);
+
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
