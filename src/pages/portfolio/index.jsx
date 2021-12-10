@@ -21,14 +21,47 @@ const Portfolio = ({ projetos }) => {
           name="description"
           content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
         />
-        <meta property="og:image" content="/ogimage.png" />
-        <meta property="og:image:secure_url" content="/ogimage.png" />
-        <meta name="twitter:image" content="/ogimage.png" />
-        <meta name="twitter:image:src" content="/ogimage.png" />
+
+        {/*  Google / Search Engine Tags  */}
+        <meta itemProp="name" content="Portfólio | Meu portfólio" />
+        <meta
+          itemProp="description"
+          content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
+        />
+        <meta
+          itemProp="image"
+          content="https://portfolio-flaviane-brum.vercel.app/portfolio//ogimage.png"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://portfolio-flaviane-brum.vercel.app/portfolio"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Portfólio | Meu portfólio" />
         <meta
           property="og:description"
           content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
         />
+        <meta
+          property="og:image"
+          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Portfólio | Meu portfólio" />
+        <meta
+          name="twitter:description"
+          content="Projetos que desenvolvi para colocar em prática os estudos. Pretendo adicionar mais projetos ao longo de minha evolução profissional."
+        />
+        <meta
+          name="twitter:image"
+          content="https://portfolio-flaviane-brum.vercel.app//ogimage.png"
+        />
+
+        {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
       </Head>
       <section
         className={`${styles.portfolio} ${
