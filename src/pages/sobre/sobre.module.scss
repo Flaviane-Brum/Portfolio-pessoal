@@ -11,11 +11,11 @@
   @media (max-width: 61.875rem) {
     width: 100%;
     left: 0;
-    transition: left 1s;
+    transition: left 0.5s;
 
     &.BtnMobileActive {
       left: 300px;
-      transition: left 1s;
+      transition: left 0.5s;
     }
   }
 }
