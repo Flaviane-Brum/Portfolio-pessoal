@@ -16,10 +16,11 @@
   @media (max-width: 61.875rem) {
     left: 0px;
     width: 100%;
-    transition: left 0.5s;
+    transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
     &.BtnMobileActive {
       left: 300px;
-      transition: left 0.5s;
+      transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
   }
   @media (max-width: 42.188rem) {

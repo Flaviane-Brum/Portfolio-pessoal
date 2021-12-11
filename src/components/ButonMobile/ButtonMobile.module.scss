@@ -3,7 +3,7 @@
   left: 90%;
   cursor: pointer;
   top: 1rem;
-  transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -49,7 +49,7 @@
   &.leftBtn {
     left: 250px;
     opacity: 1;
-    transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
   @media (max-width: 45.063rem) {
     left: 85%;

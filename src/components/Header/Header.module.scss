@@ -12,11 +12,13 @@
   overflow: auto;
   @media (max-width: 61.875rem) {
     left: 18.75rem;
-    transition: left 0.5s;
+
+    transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
     &.btnMobileActive {
       left: 0px;
-      transition: left 0.5s;
+
+      transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
   }
 }
