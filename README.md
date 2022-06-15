@@ -30,7 +30,6 @@
    <h4 >:sun_with_face:Tema Light</h4>
   <img src="./screens/mobile-light.gif"  />
   <br><br>
-<a  href="https://portfolio-flaviane-brum.vercel.app/" > Clique para visitar o projeto
 </a>
   </div>
 
